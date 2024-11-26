@@ -1,0 +1,37 @@
+<s>[INST] In this experiment, you will be shown text reflecting individuals' beliefs about a statement. You will then be asked to judge, in your opinion, the strength of that individual's belief. To do so, you will provide a probability (expressed as a percentage) where:
+- The number 0 indicates that the individual believes with certainty that the statement is false.
+- The number 100 indicates that the individual believes with certainty that the statement is true.
+
+You will be shown two example question and response pairs below to familiarize you with the experiment setup. After the examples, you will be asked to answer a new question.
+
+
+## Example Question 1
+Sentence: "Kathleen believes it's impossible that the cafe made a profit in the last 6 months." 
+Question: Provide a number between 0 and 100 that reflects, from Kathleen's perspective, the probability (expressed as a percentage) that the cafe made a profit in the last 6 months.
+- 0 indicates Kathleen believes there is a 0% chance the cafe made a profit in the last 6 months.
+- 100 indicates Kathleen believes there is a 100% chance that the cafe made a profit in the last 6 months.
+Choose the answer from the following options: 
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100
+Correct answer: 0
+
+
+## Example Question 2
+Sentence: "Cedric believes it's certain that the new treatment will improve the patient's condition."
+Question: Provide a number between 0 and 100 that reflects, from Cedric's perspective, the probability (expressed as a percentage) that the new treatment will improve the patient's condition.
+- 0 indicates Cedric believes there is a 0% chance that the new treatment will improve the patient's condition.
+- 100 indicates Cedric believes there is a 100% chance that the new treatment will improve the patient's condition.
+Choose the answer from the following options: 
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100
+Correct answer: 100
+
+
+## Question
+Given the examples before, answer the following question by writing a single number as the answer.
+
+Sentence: "[[prompt_example]]"
+Question: [[prompt_instruction]]
+[[prompt_instruction_0]]
+[[prompt_instruction_100]]
+Choose the answer from the following options: 
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100
+Correct answer: [/INST]  

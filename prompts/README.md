@@ -1,0 +1,7 @@
+Here is a brief explanation of the prompts used in each experiment:
+
+- `0shot.json`: consists of the prompt used to carry the 0-shot experiments. Because no demonstrations (or examples) are provided, the same example can be used for both the Non-verifiable and Verifiable experiments.
+
+- `non_verifiable__2shot.json`: consists of the 2-shot prompt used to carry the experiments with the non-verifiable statements. To prime the agents (human or LLM) in terms of the evaluation of non-verifiable statements, this prompt is defined by two examples containing non-verifiable sentences. Early on we also experimented with different prompts for open-source models, which were more sensitive to whitespaces than OpenAI models. We include the experimented prompts in this repository for completeness as well (`non_verifiable__2shot_preferred_prompts`).
+
+- `verifiable__2shot-FT.json`: consists of the 2-shot prompt used to carry the experiments with the Verifiable statements. To prime the agents (human or LLLM ) in terms of the evaluation of verifiable statements, this prompt is defined by two examples containing verifiable statements (the first one being a false statement and the second one being a true statement).
